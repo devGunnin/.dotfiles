@@ -21,9 +21,12 @@ sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz
 echo "Finished installing neovim."
 
 echo "Installing latest nodejs and npm..."
-curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
-sudo apt-get install -y nodejs
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+source ~/.bashrc
+nvm install --lts
 echo "Finished installing latest nodejs"
+
+
 
 echo "Installing i3, , picom, nodejs, git, packer and zsh..."
 sudo apt-get install -y i3
