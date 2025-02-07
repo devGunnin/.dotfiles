@@ -31,25 +31,69 @@ bash install
 5.
 
 ```
-cd ~/.config/nvim/
+cd ~/.config/nvim/lua/gunnin/
 ```
 
 6.
 
 ```
-vim .
+nvim init.ua
 ```
 
-7. In Neovim 
+7. In Neovim
+
+```
+:so
+```
+
+8. 
+
+```
+nvim packer.lua
+```
+
+9. In Neovim
+
+```
+:so
+```
+
+10. 
+
+```
+nvim remap.lua
+```
+
+11. In Neovim
+
+```
+:so
+```
+
+12. 
+
+```
+nvim set.lua
+```
+
+13. In Neovim
+
+```
+:so
+```
+
+14. In Neovim 
 
 ```
 :PackerInstall
 ```
 
-8. In Neovim
+15. In Neovim
 
 ```
 :PackerSync
 ```
 
-9. Restart terminal, and follow instructions on the screen.
+16. In gnome, change the font-type to be one of the nerd-fonts.
+
+17. Restart terminal, and follow instructions on the screen.
