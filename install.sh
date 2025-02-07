@@ -23,6 +23,9 @@ echo "Finished installing neovim."
 echo "Installing latest nodejs and npm..."
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 source ~/.bashrc
+export NVM_DIR="HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 nvm install --lts
 echo "Finished installing latest nodejs"
 
@@ -106,7 +109,7 @@ echo "Finished installing nerdfonts."
 echo "Transferring .dotfiles..."
 cp ~/.dotfiles/.zshrc ~/.zshrc
 cp -r ~/.dotfiles/.config/nvim ~/.config/nvim
-cp ~/.dotfiles/.bashrc ~/.bashrc
+#cp ~/.dotfiles/.bashrc ~/.bashrc
 cp -r ~/.dotfiles/.config/i3 ~/.config/i3
 cp -r ~/.dotfiles/.config/zsh ~/.config/zsh
 cp ~/.dotfiles/.config/picom.conf ~/.config/picom.conf
