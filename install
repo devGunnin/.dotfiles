@@ -116,12 +116,12 @@ cp ~/.dotfiles/.config/picom.conf ~/.config/picom.conf
 echo "Finished transferring .dotfiles."
 
 source ~/.bashrc
-source ~/.zshrc
-source ~/.config/nvim/init.lua
-source ~/.config/nvim/lua/gunnin/init.lua
-source ~/.config/nvim/lua/gunnin/packer.lua
-source ~/.config/nvim/lua/gunnin/set.lua
-source ~/.config/nvim/lua/gunnin/remap.lua
+zsh ~/.zshrc
+#source ~/.config/nvim/init.lua
+#source ~/.config/nvim/lua/gunnin/init.lua
+#source ~/.config/nvim/lua/gunnin/packer.lua
+#source ~/.config/nvim/lua/gunnin/set.lua
+#source ~/.config/nvim/lua/gunnin/remap.lua
 
 
 echo "To finalize vim installation. Navigate to ~/.config/nvim/
