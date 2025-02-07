@@ -98,7 +98,7 @@ echo "Finished installing nerdfonts."
 
 
 echo "Transferring .dotfiles..."
-cp ~/.dotfiles/.zhsrc ~/.zshrc
+cp ~/.dotfiles/.zshrc ~/.zshrc
 cp -r ~/.dotfiles/.config/nvim ~/.config/nvim
 cp ~/.dotfiles/.bashrc ~/.bashrc
 cp -r ~/.dotfiles/.config/i3 ~/.config/i3
