@@ -95,6 +95,7 @@ setopt hist_find_no_dups
 setopt hist_ignore_space
 bindkey '^p' history-search-backward
 bindkey '^n' history-serach-forward
+alias vim="nvim"
 alias ls="ls --color"
 alias ga="git add"
 alias gc="git commit -m"
