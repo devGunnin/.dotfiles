@@ -40,7 +40,7 @@ sudo apt-get install -y zsh
 echo "All apt dependencies installed."
 
 echo "Making zsh default shell..."
-cshs -s $(which zsh)
+chsh -s $(which zsh)
 echo "Default shell set to zsh."
 
 echo "Downloading oh-my-zsh"
