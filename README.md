@@ -22,10 +22,16 @@ git clone git@github.com:devGunnin/.dotfiles
 cd .dotfiles
 ```
 
-4.
+4. On Ubuntu call:
 
 ```
 bash install
+```
+
+On MacOS with brew installed, call:
+
+```
+bash macinstall
 ```
 
 5.
