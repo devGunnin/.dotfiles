@@ -100,6 +100,12 @@ nvim set.lua
 :PackerSync
 ```
 
-16. In gnome, change the font-type to be one of the nerd-fonts.
+16. In ~/.config/nvim/init.lua comment out the require("plugins") line, such that line 1 becomes:
 
-17. Restart terminal, and follow instructions on the screen.
+```
+--require("plugins")
+```
+
+17. In gnome, change the font-type to be one of the nerd-fonts.
+
+18. Restart terminal, and follow instructions on the screen.
