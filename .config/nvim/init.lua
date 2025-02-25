@@ -1,2 +1,2 @@
---require("plugins.lua")
+require("plugins")
 require("gunnin")
