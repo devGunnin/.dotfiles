@@ -43,7 +43,7 @@ cd ~/.config/nvim/lua/gunnin/
 6.
 
 ```
-nvim init.ua
+nvim init.lua
 ```
 
 7. In Neovim
