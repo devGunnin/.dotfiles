@@ -2,7 +2,7 @@
 Installation
 --------------------------------------------------------------
 
-To install (only on Ubuntu) follow these simple instructions:
+To install (currently only for Ubuntu or MacOS - i.e. unix systems with 'apt' or 'brew', follow these simple instructions:
 
 1. 
 
